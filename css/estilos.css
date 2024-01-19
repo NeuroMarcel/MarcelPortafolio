@@ -1,14 +1,14 @@
 /* @import url("https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap"); */
-@font-face {
+/* @font-face {
   font-family: "alienFont";
-  src: url(/Nuevo_Portafolio/font/neon-future-2-font/NeonFuture.otf);
+  src: url(/main/font/neon-future-2-font/NeonFuture.otf);
 }
 
 @font-face {
   font-family: "alienNum";
-  src: url(/Nuevo_Portafolio/font/alone-font/Alone-2OdBK.otf);
+  src: url(/main/font/alone-font/Alone-2OdBK.otf);
 }
-
+ */
 /* * {
   margin: 0;
   padding: 0;
@@ -42,11 +42,11 @@ body {
 }
 
 .btn-menu {
-  cursor: url(img/ovni.png);
+  cursor: url(/main/img/ovni.png);
 }
 
 .boton {
-  cursor: url(img/ovni.png), auto;
+  cursor: url(/main/img/ovni.png), auto;
 }
 
 .container {
@@ -460,7 +460,7 @@ button:hover {
 }
 
 .card .face {  
-  background-image: url(img/istockphoto-1365094219-612x612.jpg);
+  background-image: url(/main/img/istockphoto-1365094219-612x612.jpg);
 background-size:cover;
   position: absolute;
   width: 100%;
@@ -556,7 +556,7 @@ width: 100%;
 }
 
 .cardyo .faceyo {  
-  background-image: url(img/perfil.png);
+  background-image: url(/main/img/perfil.png);
 background-size:cover;
   position: absolute;
   width: 100%;
