@@ -26,9 +26,9 @@ document.getElementById("back").addEventListener("click", () => {
 
 });
 document.getElementById("plus").addEventListener("click", () => {
-  document.querySelector(".skill-plus").style.display = "block";
   document.querySelector(".imagenes").style.display = "none";
   document.querySelector(".presentacion").style.display = "none";
+  document.querySelector(".skill-plus").style.display = "block";
   document.querySelector(".skill-back").style.display = "none";
   document.querySelector(".skill-row").style.display = "none";
   document.querySelector(".perfil").style.display = "none";
