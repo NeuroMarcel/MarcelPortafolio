@@ -14,8 +14,8 @@ document.getElementById("front").addEventListener("click", () => {
 
 // Mostrar el elemento con clase .skill-back al hacer clic en el botón con id "back"
 document.getElementById("back").addEventListener("click", () => {
-  document.querySelector(".skill-back").style.display = "block";
   document.querySelector(".skill-row").style.display = "none";
+  document.querySelector(".skill-back").style.display = "block";
   document.querySelector(".skill-plus").style.display = "none";
   document.querySelector(".perfil").style.display = "none";
   document.querySelector(".web1").style.display = "none";
@@ -26,8 +26,8 @@ document.getElementById("back").addEventListener("click", () => {
 
 });
 document.getElementById("plus").addEventListener("click", () => {
-  document.querySelector(".skill-plus").style.display = "block";
   document.querySelector(".skill-row").style.display = "none";
+  document.querySelector(".skill-plus").style.display = "block";
   document.querySelector(".skill-back").style.display = "none";
   document.querySelector(".imagenes").style.display = "none";
   document.querySelector(".presentacion").style.display = "none";
